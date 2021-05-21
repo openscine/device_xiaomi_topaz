@@ -414,6 +414,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     FrameworksResTopaz \
+    SettingsProviderResTopaz \
     SettingsResTopaz \
     SettingsOverlayM7G \
     SettingsOverlayM7N \

@@ -231,6 +231,10 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Graphics
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno

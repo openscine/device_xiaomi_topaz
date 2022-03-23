@@ -100,6 +100,9 @@ BOARD_BOOTCONFIG := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=4e00000.dwc3
 
+BOARD_KERNEL_CMDLINE := \
+    disable_dma32=on
+
 # Kernel prebuilt
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64

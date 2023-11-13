@@ -60,6 +60,12 @@ function blob_fixup() {
         vendor/bin/hw/android.hardware.security.keymint-service-qti|vendor/lib64/libqtikeymint.so)
             grep -q "android.hardware.security.rkp-V3-ndk.so" "${2}" || ${PATCHELF} --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
             ;;
+        vendor/etc/init/hw/init.mi_thermald.rc|vendor/etc/init/hw/init.qcom.usb.rc)
+            sed -i 's/on charger/on property:init.svc.vendor.charger=running/g' "${2}"
+            ;;
+        vendor/etc/init/init.batterysecret.rc|vendor/etc/init/init.mi_thermald.rc)
+            sed -i 's/on charger/on property:init.svc.vendor.charger=running/g' "${2}"
+            ;;
     esac
 }
 

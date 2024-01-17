@@ -10,9 +10,6 @@ on post-fs-data
     mkdir /mnt/vendor/persist/goodix 0770 system system
     mkdir /data/vendor/nfc 0770 nfc nfc
 
-on post-fs
-    start stflashtool
-
 on boot
     chown system system /sys/bus/platform/devices/soc:fpc1020/irq
     chown system system /sys/bus/platform/devices/soc:fpc1020/wakeup_enable
@@ -27,14 +24,6 @@ on boot
 
     chmod 0664 /sys/bus/platform/devices/soc:xiaomi_fingerprint/fingerdown
     chown system graphics /sys/bus/platform/devices/soc:xiaomi_fingerprint/fingerdown
-
-    start nfc_hal_service
-
-service stflashtool /vendor/bin/STFlashTool
-    class late_start
-    group nfc
-    user nfc
-    oneshot
 
 service vendor.goodix-events /vendor/bin/init.goodix.events.sh
     class late_start

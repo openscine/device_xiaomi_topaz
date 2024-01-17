@@ -1062,6 +1062,14 @@ vendor/lib64/libmisight.so
 vendor/lib64/libhta.so
 
 # NFC
+odm/etc/permissions/sku_m7n/android.hardware.nfc.hce.xml
+odm/etc/permissions/sku_m7n/android.hardware.nfc.hcef.xml
+odm/etc/permissions/sku_m7n/android.hardware.nfc.uicc.xml
+odm/etc/permissions/sku_m7n/android.hardware.nfc.xml
+odm/etc/permissions/sku_um7n/android.hardware.nfc.hce.xml
+odm/etc/permissions/sku_um7n/android.hardware.nfc.hcef.xml
+odm/etc/permissions/sku_um7n/android.hardware.nfc.uicc.xml
+odm/etc/permissions/sku_um7n/android.hardware.nfc.xml
 vendor/bin/STFlashTool
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf

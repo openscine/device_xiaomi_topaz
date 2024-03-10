@@ -403,7 +403,8 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon \
-    WifiResTarget
+    WifiResTarget \
+    ApertureTopaz
 
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \

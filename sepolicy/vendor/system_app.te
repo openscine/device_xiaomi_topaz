@@ -8,3 +8,10 @@ binder_call(system_app, hal_health_default)
 binder_call(system_app, hal_ir_default)
 binder_call(system_app, hal_memtrack_default)
 binder_call(system_app, vendor_hal_gnss_qti)
+
+# Battery Health
+allow system_app vendor_sysfs_battery_supply:dir { search };
+allow system_app vendor_sysfs_battery_supply:file { read };
+allow system_app vendor_sysfs_battery_supply:file { open };
+allow system_app vendor_sysfs_battery_supply:file { getattr };
+r_dir_file(system_app, vendor_sysfs_battery_supply)

@@ -14,4 +14,12 @@
     <!-- Fingerprint sensor -->
     <dimen name="fingerprint_dot_radius">0dp</dimen>
     <dimen name="fingerprint_pulse_radius">0dp</dimen>
+    
+    <!-- Battery Health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string> 
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string> 
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
+    <integer name="config_batteryCalculatedCapacityDivider">1000</integer>
+    <integer name="config_batteryDesignCapacityDivider">1000</integer>
 </resources>

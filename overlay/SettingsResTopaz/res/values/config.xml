@@ -20,6 +20,4 @@
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string> 
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string> 
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
-    <integer name="config_batteryCalculatedCapacityDivider">1000</integer>
-    <integer name="config_batteryDesignCapacityDivider">1000</integer>
 </resources>

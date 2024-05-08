@@ -18,6 +18,10 @@ genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform
 genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform:bolero-codec/wcd937x-codec/extcon u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:rt-pd-manager/extcon u:object_r:sysfs_extcon:s0
 
+# Suspend
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/0-00/1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc/rtc/rtc0/alarmtimer.1.auto/wakeup/wakeup8 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/0-00/1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc/rtc/rtc0/alarmtimer.1.auto/wakeup/wakeup8/event_count u:object_r:sysfs_wakeup:s0
+
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fpc1020/device_prepare                u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fpc1020/fingerdown_wait               u:object_r:vendor_sysfs_fingerprint:s0

@@ -61,11 +61,15 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.r_submix.default \
     audio.usb.default \
-    libtinycompress
+    libaudiopreprocessing \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libtinycompress \
+    libvolumelistener
 
 PRODUCT_PACKAGES += \
     audioadsprpcd \
-    libvolumelistener \
     libbatterylistener \
     libhfp_pal
 

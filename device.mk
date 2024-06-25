@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     libstdc++_vendor \
+    libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -390,7 +391,8 @@ PRODUCT_PACKAGES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -458,12 +460,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/bengal/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# QCC
+PRODUCT_PACKAGES += \
+    libgrpc++_unsecure.vendor
+
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
+    libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
     libqti_vndfwk_detect_vendor \
-    libvndfwk_detect_jni.qti.vendor
+    libsqlite.vendor \
+    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor 
 
 # QTI service tracker
 PRODUCT_PACKAGES += \

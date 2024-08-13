@@ -622,3 +622,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)

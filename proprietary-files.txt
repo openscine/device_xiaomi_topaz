@@ -1136,13 +1136,6 @@ vendor/lib64/libvideotxr.so
 vendor/lib/libvmmem.so
 vendor/lib64/libvmmem.so
 
-# Micharge
-vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
-vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
-
 # Neural
 vendor/lib64/libhta.so
 

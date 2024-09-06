@@ -314,6 +314,10 @@ vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=0
 
 # Wi-Fi
+ro.hardware.wlan.chip=wcn3950
+ro.hardware.wlan.dbs=0
+ro.hardware.wlan.mimo=0
+ro.hardware.wlan.vendor=qcom
 wifi.aware.interface=wifi-aware0
 
 # Zygote

@@ -428,4 +428,7 @@
   -->
    <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+
 </resources>

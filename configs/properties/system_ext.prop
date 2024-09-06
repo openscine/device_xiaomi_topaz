@@ -15,5 +15,4 @@ ro.surface_flinger.supports_background_blur=0
 vendor.media.target_variant=_khaje_v0
 
 # Radio
-ro.telephony.sim_slots.count=1
 telephony.active_modems.max_count=2

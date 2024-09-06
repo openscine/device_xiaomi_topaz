@@ -61,7 +61,6 @@ ro.nfc.port=I2C
 persist.backup.ntpServer="0.pool.ntp.org"
 
 # Radio
-DEVICE_PROVISIONED=1
 persist.vendor.radio.atfwd.start=true
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so

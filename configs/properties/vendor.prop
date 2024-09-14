@@ -256,6 +256,7 @@ ro.hardware.keystore_desede=true
 ro.control_privapp_permissions=enforce
 
 # Media
+vendor.media.omx=0
 vendor.mm.enable.qcom_parser=16711663
 persist.mm.enable.prefetch=true
 

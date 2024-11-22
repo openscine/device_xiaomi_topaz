@@ -980,11 +980,6 @@ vendor/lib64/hw/sound_trigger.primary.bengal.so
 vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
 vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libeai_fixed.so
-vendor/lib64/libeai_float.so
-vendor/lib64/liblistensoundmodel2vendor.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 
 # Media
 system_ext/lib64/libmmosal.so
@@ -1480,13 +1475,6 @@ vendor/etc/sensors/config/bmi3x0_0.json
 vendor/etc/sensors/config/dynamic_sensors.json
 vendor/etc/sensors/config/holi_tmd2755_0.json
 vendor/etc/sensors/config/icm4x6x.json
-vendor/etc/sensors/config/kona_qmc630x_0.json
-vendor/etc/sensors/config/kona_qmc630x_1.json
-vendor/etc/sensors/config/lahaina_mmc56x3x_0.json
-vendor/etc/sensors/config/lahaina_mmc56x3x_1.json
-vendor/etc/sensors/config/msmnile_bmi3x0_0.json
-vendor/etc/sensors/config/msmnile_icm4x6x.json
-vendor/etc/sensors/config/sdm845_sx932x_0.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/config/sns_amd_sw_enabled.json

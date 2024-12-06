@@ -22,4 +22,4 @@ PRODUCT_MODEL := Redmi Note 12 4G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/topaz_global/topaz:14/UKQ1.230917.001/V816.0.6.0.UMGIDXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/tapas_global/tapas:13/TKQ1.221114.001/OS2.0.5.0.VMTMIXM:user/release-keys

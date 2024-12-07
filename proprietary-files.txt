@@ -1556,6 +1556,9 @@ vendor/etc/tzlog.dict
 -vendor/lib64/liblmthermallistner.so
 -vendor/lib64/libthermalclient.so
 
+# Telephony
+system_ext/framework/qti-telephony-common.jar|93c497d59f9859892f919963b21064319635b524
+
 # Time
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
